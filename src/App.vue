@@ -8,7 +8,7 @@
     <HelloWorld msg="Welcome to Your Vue.js App"/>
 
   </div>
-        <iframe src="https://playcanv.as/p/OMyFsRAt/" />
+        <iframe src="https://playcanv.as/p/OMyFsRAt/?overlay=false" />
 
 </div>
 </template>
@@ -44,8 +44,7 @@ html{
 iframe{
 
   width: 100vw;
-  height: 80vh;
-  padding-bottom: 10vh;
+  height: 100vh;
   border: none;
   position:fixed;
   z-index: 0;
