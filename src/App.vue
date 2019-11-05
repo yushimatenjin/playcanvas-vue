@@ -1,8 +1,16 @@
 <template>
+<div>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+        <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
   </div>
+        <iframe src="https://playcanv.as/p/OMyFsRAt/" />
+
+</div>
 </template>
 
 <script>
@@ -17,6 +25,9 @@ export default {
 </script>
 
 <style>
+html{
+  background:white;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -24,5 +35,21 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  background: transparent;
+  position:absolute;
+  z-index: 1;
+    width: 100vw;
+  height: 100vh;
+}
+iframe{
+
+  width: 100vw;
+  height: 80vh;
+  padding-bottom: 10vh;
+  border: none;
+  position:fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
 }
 </style>
