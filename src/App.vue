@@ -8,7 +8,7 @@
     <HelloWorld msg="Welcome to Your Vue.js App"/>
 
   </div>
-        <iframe src="https://playcanv.as/p/OMyFsRAt/?overlay=false" />
+        <iframe src="https://playcanv.as/p/8NZ92jAY/?overlay=false" />
 
 </div>
 </template>
@@ -33,7 +33,7 @@ html{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: white;
   margin-top: 60px;
   background: transparent;
   position:absolute;
